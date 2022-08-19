@@ -44,6 +44,7 @@
 		5D7FF3AE28AF549100BE8AA9 /* StudyTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7FF3B228AF549100BE8AA9 /* StudyTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTimeUITests.swift; sourceTree = "<group>"; };
 		5D7FF3B428AF549100BE8AA9 /* StudyTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D7FF3C128AF555B00BE8AA9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		5D7FF38B28AF548F00BE8AA9 = {
 			isa = PBXGroup;
 			children = (
+				5D7FF3C128AF555B00BE8AA9 /* README.md */,
 				5D7FF39628AF548F00BE8AA9 /* StudyTime */,
 				5D7FF3A728AF549100BE8AA9 /* StudyTimeTests */,
 				5D7FF3B128AF549100BE8AA9 /* StudyTimeUITests */,
