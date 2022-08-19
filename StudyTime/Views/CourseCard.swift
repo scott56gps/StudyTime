@@ -9,17 +9,22 @@ import SwiftUI
 
 struct CourseCard: View {
     let course: Course
+    @State var events: [String] = []
     
     var body: some View {
         VStack {
             Text(course.name)
                 .font(.title)
-            Spacer()
+            if events.isEmpty {
+               Spacer()
+            } else {
+               TimeEventsView(events: events)
+            }
             VStack {
-                Button(action: { print("Started") }) {
+                Button(action: { print("Started"); events.append("Started") }) {
                     Text("Start")
                 }
-                Button(action: { print("Stopped") }) {
+                Button(action: { print("Stopped"); events.append("Stopped") }) {
                     Text("Stop")
                 }
             }
