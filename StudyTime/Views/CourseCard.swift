@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct CourseCard: View {
+    let course: Course
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text(course.name)
+                .font(.title)
+            Spacer()
+            VStack {
+                Button(action: { print("Started") }) {
+                    Text("Start")
+                }
+                Button(action: { print("Stopped") }) {
+                    Text("Stop")
+                }
+            }
+        }
     }
 }
 
 struct CourseCard_Previews: PreviewProvider {
     static var previews: some View {
-        CourseCard()
+        CourseCard(course: Course(name: "CS124"))
     }
 }
