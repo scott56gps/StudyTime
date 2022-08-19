@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D7FF39828AF548F00BE8AA9 /* StudyTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF39728AF548F00BE8AA9 /* StudyTimeApp.swift */; };
-		5D7FF39A28AF548F00BE8AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF39928AF548F00BE8AA9 /* ContentView.swift */; };
+		5D7FF39A28AF548F00BE8AA9 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF39928AF548F00BE8AA9 /* CoursesView.swift */; };
 		5D7FF39C28AF549000BE8AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7FF39B28AF549000BE8AA9 /* Assets.xcassets */; };
 		5D7FF39F28AF549000BE8AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7FF39E28AF549000BE8AA9 /* Preview Assets.xcassets */; };
 		5D7FF3A928AF549100BE8AA9 /* StudyTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF3A828AF549100BE8AA9 /* StudyTimeTests.swift */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		5D7FF39428AF548F00BE8AA9 /* StudyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7FF39728AF548F00BE8AA9 /* StudyTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTimeApp.swift; sourceTree = "<group>"; };
-		5D7FF39928AF548F00BE8AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D7FF39928AF548F00BE8AA9 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		5D7FF39B28AF549000BE8AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7FF39E28AF549000BE8AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D7FF3A428AF549100BE8AA9 /* StudyTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				5D7FF3C228AF578900BE8AA9 /* SnapCarousel.swift */,
-				5D7FF39928AF548F00BE8AA9 /* ContentView.swift */,
+				5D7FF39928AF548F00BE8AA9 /* CoursesView.swift */,
 				5D7FF3C528AF587C00BE8AA9 /* CourseCard.swift */,
 			);
 			path = Views;
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7FF3C328AF578900BE8AA9 /* SnapCarousel.swift in Sources */,
-				5D7FF39A28AF548F00BE8AA9 /* ContentView.swift in Sources */,
+				5D7FF39A28AF548F00BE8AA9 /* CoursesView.swift in Sources */,
 				5D7FF3C928AF58E100BE8AA9 /* Course.swift in Sources */,
 				5D7FF3C628AF587C00BE8AA9 /* CourseCard.swift in Sources */,
 				5D7FF39828AF548F00BE8AA9 /* StudyTimeApp.swift in Sources */,

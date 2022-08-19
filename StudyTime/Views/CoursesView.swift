@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CoursesView.swift
 //  StudyTime
 //
 //  Created by Scott Nicholes on 8/18/22.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CoursesView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CoursesView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CoursesView()
     }
 }
