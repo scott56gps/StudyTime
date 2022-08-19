@@ -17,6 +17,7 @@
 		5D7FF3C328AF578900BE8AA9 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF3C228AF578900BE8AA9 /* SnapCarousel.swift */; };
 		5D7FF3C628AF587C00BE8AA9 /* CourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF3C528AF587C00BE8AA9 /* CourseCard.swift */; };
 		5D7FF3C928AF58E100BE8AA9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF3C828AF58E100BE8AA9 /* Course.swift */; };
+		5D7FF3CB28AF5EDB00BE8AA9 /* TimeEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FF3CA28AF5EDB00BE8AA9 /* TimeEventsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5D7FF3C228AF578900BE8AA9 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 		5D7FF3C528AF587C00BE8AA9 /* CourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCard.swift; sourceTree = "<group>"; };
 		5D7FF3C828AF58E100BE8AA9 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5D7FF3CA28AF5EDB00BE8AA9 /* TimeEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEventsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				5D7FF3C228AF578900BE8AA9 /* SnapCarousel.swift */,
 				5D7FF39928AF548F00BE8AA9 /* CoursesView.swift */,
 				5D7FF3C528AF587C00BE8AA9 /* CourseCard.swift */,
+				5D7FF3CA28AF5EDB00BE8AA9 /* TimeEventsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				5D7FF39A28AF548F00BE8AA9 /* CoursesView.swift in Sources */,
 				5D7FF3C928AF58E100BE8AA9 /* Course.swift in Sources */,
 				5D7FF3C628AF587C00BE8AA9 /* CourseCard.swift in Sources */,
+				5D7FF3CB28AF5EDB00BE8AA9 /* TimeEventsView.swift in Sources */,
 				5D7FF39828AF548F00BE8AA9 /* StudyTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

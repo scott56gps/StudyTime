@@ -24,6 +24,7 @@ struct CourseCard: View {
                 }
             }
         }
+        .frame(maxWidth: .infinity)
     }
 }
 
