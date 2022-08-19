@@ -9,8 +9,7 @@ import SwiftUI
 
 struct CoursesView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CourseCard(course: Course(name: "CS124"))
     }
 }
 
